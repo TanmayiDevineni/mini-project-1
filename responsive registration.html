@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+    <head></head>
+      <title></title>
+      <style type="text/css">
+          *{
+              margin:0;
+              padding:0;
+          }
+          body{
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyRMXaeJml5JUHAOsb2ZlE_1YFWNdelinJVA&usqp=CAU);
+              background-position: center;
+              background-size: cover;
+              font-family: 'Times New Roman', Times, serif;
+              margin-top: 40px;
+
+          }
+          .regform{
+              width:800px;
+              background-color: rgb(0,0,0,6);
+              margin:auto;
+              color:black;
+              padding: 10px 0px 0px 10px;
+              border-radius:15px 15px 0px ;
+          }
+          .main{
+              background-color: rgb(0,0,0,0.5);
+              width: 800px;
+              margin: auto;
+          }
+          form{
+              padding: 10px;
+          }
+          #name{
+              width:100%;
+              height: 100px;
+          }
+          .name{
+              margin-left: 25px;
+              margin: 30px;
+              width: 125px;
+              color: white;
+              font-size:20px;
+              font-weight: 700;
+          }
+          .firstname{
+              position: relative;
+              left: 180px;
+              top: -37px;
+              line-height: 40px;
+              border-radius: 6px;
+              padding: 0 22px;
+              font-size: 18px;
+          }
+          .lastname{
+              position: relative;
+              left: 417px;
+              top: -80px;
+              line-height: 40px;
+              border-radius: 6px;
+              padding: 0 22px;
+              font-size: 18px;
+              color: #555;
+          }
+          .firstlabel{
+              position: relative;
+              color:#E5E5E5;
+              text-transform:capitalize;
+              font-size:16px;
+              left:203px;
+              top:-45px;
+          }
+          .firstlabel{
+              position: relative;
+              color:#E5E5E5;
+              text-transform:capitalize;
+              font-size:16px;
+              left:175px;
+              top:-45px;
+          }
+          .email{
+              position: relative;
+              left: 200px;
+              top: -37px;
+              line-height: 40px;
+              width: 532px;
+              border-radius: 6px;
+              padding: 0 22px;
+              font-size:18px ;
+              color: #555;
+          }
+          .code{
+              position: relative;
+              color: #E5E5E5;
+              text-transform: capitalize;
+              font-size: 16px;
+              left: 54px;
+              top: -4px;
+
+          }
+          .number{
+            position: relative;
+              left: 200px;
+              top: -37px;
+              line-height: 40px;
+              width: 255px;
+              border-radius: 6px;
+              padding: 0 22px;
+              font-size:18px ;
+              color: #555;
+          }
+          .phone-number{
+            position: relative;
+              color: #E5E5E5;
+              text-transform: capitalize;
+              font-size: 16px;
+              left: -100px;
+              top: -2px;
+
+          }
+          #player{
+              margin: left;
+              color: white;
+              font-size: 18px;
+          }
+          .radio{
+              display: inline-block;
+              padding-right:70px; 
+              font-size: 25px;
+              margin-left: 25px;
+              margin-top: 15px;
+              color: white;
+          }
+          .radio input{
+              width:20px ;
+              height: 20px;
+              border-radius: 50%;
+              cursor: pointer;
+              outline: none;
+
+          }
+          button{
+              background-color:#3BAF9F ;
+              display: block;
+              margin: 20px 0px 0px 20px;
+              text-align: center;
+              border-radius: 12px;
+              border: 2px solid #366473;
+              padding: 14px 110px;
+              outline: none;
+              color: white;
+              cursor: pointer;
+              transition: 0.25px;
+          }
+           button:hover{
+               background-color: #5390F5;
+           }
+
+      </style>
+    </head>
+    <body>
+        <div class="regform"><hl>Registration Form</hl></div>
+        <div class="mane">
+            <form>
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name"><br>
+                    <label class="firstlabel">first name</label>
+                    <input class="lastname"  type="text" name="last_name">
+                    <label class="lastlabel">last name</label>
+                </div>
+                <h2 class="name">Email</h2>
+                <input class="email" type="text" name="email">
+                <h2 class="name">PinCode</h2>
+                <input class="code" type="text" name="pin code">
+                <label class="pincode">Pincode</label>
+                <input class="number" type="text"  name="phone">
+                <label class="phone-number">Mobile Number</label>
+                <h2 id="player">Are you already a user ?</h2>
+                <label>
+                    <label class="radio">
+                    <input class="radio-one" type="radio" checked="checked" name="">
+                    <span class="checkmark"></span>
+                    Yes
+                </label>
+                <label>
+                    <label class="radio">
+                    <input class="radio-two" type="radio" checked="checked" name="">
+                    <span class="checkmark"></span>
+                    No
+                </label>
+                <button type="submit" >Register</button>   
+                </select>
+            </form>
+        </div>
+    </body>
+</html>
